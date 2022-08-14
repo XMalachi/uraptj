@@ -1,0 +1,29 @@
+.container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .uparrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 4rem;
+    background: rgb(14, 87, 109);
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+  }
+  
+  .uparrow:hover {
+    background: rgb(111, 115, 122);
+  }
+  
+  @media (max-width: 500px) {
+    .uparrow {
+      bottom: 100px;
+    }
+    
+}

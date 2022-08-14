@@ -1,0 +1,18 @@
+.ads{
+    background-color: rgba(111, 115, 122, 0.637);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 2.5rem;
+    color: rgb(4, 30, 73);
+}
+
+.ads .adstitle{
+    font-size: 3em;
+    margin: 0;
+}
+
+.ads .adstext{
+    font-size: 1em;
+}

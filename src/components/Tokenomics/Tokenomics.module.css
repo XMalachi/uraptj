@@ -1,0 +1,202 @@
+.tokenomicsContainer{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.87) 0%,rgba(0, 0, 0, 0.596) 100%), url(../../images/tokenomicsbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 3rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tokenomicsHeader{
+    color: rgb(133, 194, 235);
+}
+.tokenomicsContainer >  h2{
+    margin-bottom: 5rem;
+}
+
+.tokenomicsContainer >  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    width: 100%;
+}
+
+.tokenomicsContainer >  div .buytaxChart, .tokenomicsContainer >  div .selltaxChart{
+    width: 50%;
+    margin: 10px 40px;
+    height: 100%;
+}
+.tokenomicsContainer >  div .buytaxDetailGrp, .tokenomicsContainer >  div .selltaxDetailGrp{
+    width: 30rem;
+    margin: 10px 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.buytaxChart, .selltaxChart {
+    width: 100%;
+}
+
+.buytaxDetail, .selltaxDetail{
+    position: relative;
+    border: 10px double rgba(255, 255, 255, 0.267);
+    height: 20rem;
+    width: 20rem;
+
+}
+
+
+.buytaxDetail > *{
+    padding: 20px;
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buytaxDetail .buymarketing{
+    background-color: rgba(5, 11, 58, 1);
+    top: -80px;
+    left: -80px;
+}
+
+.buytaxDetail .buyLp{
+    background-color: rgba(165, 238, 228, 1);
+    bottom: -80px;
+    right: 80px;
+    color: rgba(5, 11, 58, 1);
+}
+
+.buytaxDetail .buyreward{
+    background-color: rgba(9, 133, 116, 1);
+    top: -80px;
+    right: -80px;
+}
+
+
+/* sell tax details styles */
+.selltaxDetail > *{
+    padding: 20px;
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selltaxDetail .sellmarketing{
+    background-color: rgba(105, 80, 24, 0.637);
+    top: -80px;
+    left: -80px;
+}
+
+.selltaxDetail .sellLp{
+    background-color: rgba(189, 100, 48, 0.637);
+    bottom: -80px;
+    right: 80px;
+    /* color: rgba(5, 11, 58, 1); */
+}
+
+.selltaxDetail .sellreward{
+    background-color: rgba(156, 91, 91, 0.637);
+    top: -80px;
+    right: -80px;
+}
+
+
+@media (max-width: 1000px) {
+    .tokenomicsContainer >  div{
+        flex-direction: column;
+        margin-bottom: 10rem;
+        
+    }
+    .tokenomicsContainer >  div .buytaxChart, .tokenomicsContainer >  div .selltaxChart{
+        margin-bottom: 100px 40px;
+    }
+    .tokenomicsContainer >  div .buytaxDetailGrp, .tokenomicsContainer >  div .selltaxDetailGrp{
+        margin: 100px 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tokenomicsContainer{
+        padding: 3rem 2rem;
+    }
+    
+    .tokenomicsContainer >  div .buytaxChart, .tokenomicsContainer >  div .selltaxChart{
+        width: 80%;
+        margin: 5rem 0;
+        
+    }
+    .tokenomicsContainer >  div .buytaxDetailGrp, .tokenomicsContainer >  div .selltaxDetailGrp{
+        width: 60%;
+        /* height: 3rem; */
+        margin:0;
+
+    }
+
+    .tokenomicsContainer >  div .buytaxDetailGrp .buytaxDetail, .tokenomicsContainer >  div .selltaxDetailGrp .selltaxDetail{
+        width: 100%;
+        height: 15rem;
+        margin: 5rem 0;
+
+    }
+
+    /* buy tax  details */
+    .buytaxDetail .buymarketing{
+        background-color: rgba(5, 11, 58, 1);
+        top: -60px;
+        left: -60px;
+    }
+    
+    .buytaxDetail .buyLp{
+        background-color: rgba(165, 238, 228, 1);
+        bottom: -60px;
+        right: 30px;
+        color: rgba(5, 11, 58, 1);
+    }
+    
+    .buytaxDetail .buyreward{
+        background-color: rgba(9, 133, 116, 1);
+        top: -60px;
+        right: -60px;
+    }
+    
+
+    /* sell tax details styles */
+    .selltaxDetail > *, .buytaxDetail > *{
+        padding: 10px;
+        position: absolute;
+        height: 6rem;
+        width: 6rem;
+    }
+    .selltaxDetail .sellmarketing{
+        background-color: rgba(105, 80, 24, 0.637);
+        top: -60px;
+        left: -60px;
+    }
+
+    .selltaxDetail .sellLp{
+        background-color: rgba(189, 100, 48, 0.637);
+        bottom: -60px;
+        right: 30px;
+        /* color: rgba(5, 11, 58, 1); */
+    }
+
+    .selltaxDetail .sellreward{
+        background-color: rgba(156, 91, 91, 0.637);
+        top: -60px;
+        right: -60px;
+    }
+
+}

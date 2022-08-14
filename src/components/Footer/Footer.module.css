@@ -1,0 +1,35 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 50px  20px;
+    
+}
+
+.footerGrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+ .telegram{
+    background-color: rgba(21, 40, 180, 0.945);
+    color: white;
+    padding: 10px 20px ;
+    font-size: 1.2em;
+    transition: 0.3s ease-in-out;
+    margin-right: 20px;
+}
+
+.telegram:hover{
+    background-color: rgb(202, 199, 199);
+    color: rgba(5, 11, 58, 0.945);
+}
+
+@media (max-width: 500px) {
+    .footerGrp{
+        flex-direction: column-reverse;
+        
+    }
+    
+}

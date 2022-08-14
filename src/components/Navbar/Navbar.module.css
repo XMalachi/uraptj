@@ -1,0 +1,114 @@
+.navbarcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding: 0.8rem 4rem;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.navbarcontainer .logogroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarcontainer .toggler{
+    display: none;
+    font-size: 1.5em;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+.navbarcontainer .toggler:hover{
+    color: rgba(255, 255, 255, 0.705);
+}
+.navbarcontainer .logogroup > *{
+    margin: 0;
+    margin-right: 20px;
+}
+
+.navbarcontainer .logogroup .logo{
+    width: 3rem;   
+}
+
+.navbarcontainer .logogroup .logo > img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbarcontainer .links > *{
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.navbarcontainer .links > *:hover{
+    letter-spacing: 1px;
+}
+
+/* the toggled link */
+
+.toggledlinks{
+    box-sizing: border-box;
+    height: 50vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    z-index: 999;
+    position: fixed;
+    top: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: fadeInAnimationforqualities ease-in-out 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: 0.3s ease-in-out;
+}
+.toggledlinks > *{
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.toggledlinks > *:hover{
+    letter-spacing: 1px;
+}
+
+@keyframes fadeInAnimationforqualities {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .navbarcontainer{
+        padding: 0.8rem 2rem;
+    }
+
+    .navbarcontainer .links{
+        display: none;
+    }
+
+    .navbarcontainer .toggler{
+        display: block;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 500px) {
+
+}
+
