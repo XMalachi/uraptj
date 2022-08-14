@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, Routes, Route } from 'react-router-dom'
-import Features from './components/Features/Features'
+import { Routes, Route } from 'react-router-dom'
+
 import Screen from './components/Screens/Screen'
 
 
