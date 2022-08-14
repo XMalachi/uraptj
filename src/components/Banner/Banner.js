@@ -6,9 +6,10 @@ import pancakeswaplogo from '../../images/cake.png';
 
 
 function Banner() {
-
-    const [state, setState] = useState(['URAPtj Token', 'Buy URAPtj Token'])
-    const [qualities, setQualities] = useState(['Be a part of something great', 'Be a part of change', 'Be a part of growth', 'Be a part of the cause', 'Changing the world for good', 'Be a part of uraptj token'])
+    const state = ['URAPtj Token', 'Buy URAPtj Token']
+    const qualities = ['Be a part of something great', 'Be a part of change', 'Be a part of growth', 'Be a part of the cause', 'Changing the world for good', 'Be a part of uraptj token']
+    // const [state, setState] = useState(['URAPtj Token', 'Buy URAPtj Token'])
+    // const [qualities, setQualities] = useState(['Be a part of something great', 'Be a part of change', 'Be a part of growth', 'Be a part of the cause', 'Changing the world for good', 'Be a part of uraptj token'])
     const [text, setText] =  useState({count: 0, qualitiesCount: 0})
 
     // setTimeout()
