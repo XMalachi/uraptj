@@ -2,7 +2,7 @@
   "name": "uraptj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://XMalachi.github.io/uraptj",
+  "homepage": "http://xmalachi.github.io/uraptj",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
