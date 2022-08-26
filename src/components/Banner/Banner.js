@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Banner.module.css'
-import { BsTelegram } from "react-icons/bs";
+import { BsTelegram, BsTwitter } from "react-icons/bs";
 import logo from '../../images/uraptjlogo.png';
 import pancakeswaplogo from '../../images/cake.png';
 
@@ -54,6 +54,12 @@ function Banner() {
                 <a href='https://twitter.com/uraptj?s=21&t=kBRE2E0-fGItx8CXMP-XzA'
                     target="_blank" rel="noopener noreferrer" 
                     className={styles.telegram}><BsTelegram  />
+
+                    Join Telegram
+                </a>
+                <a href='https://t.me/Uraptj'
+                    target="_blank" rel="noopener noreferrer" 
+                    className={styles.telegram}><BsTwitter />
 
                     Join Telegram
                 </a>
